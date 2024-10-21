@@ -1,0 +1,183 @@
+<!doctype html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+
+<title>Le LAP - La salle d'arcade associative parisienne</title>
+
+<style>
+    @font-face {
+        font-family: 'REC01';
+        src: url('fonts/rec_01.woff2') format('woff2');
+    }
+
+    :root {
+        --font-title: 'REC01', 'Roboto', sans-serif;
+        --font-body: 'SUSE', 'Roboto', sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: var(--font-body);
+        color: white;
+        background: purple;
+        margin: 0;
+        font-size: 1.2em;
+        padding-bottom: 200px;
+    }
+
+    a, a:visited {
+        color: white;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: yellow;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    h2 {
+        margin-top: 2em;
+    }
+
+    #background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        filter: blur(10px) brightness(0.2);
+    }
+
+    #mottie {
+        position: fixed;
+        bottom: -70px;
+        right: 10px;
+        z-index: 1;
+        height: 200px;
+    }
+
+    #title {
+        text-align: center;
+        font-size: 2em;
+        margin: 1em;
+    }
+
+    #title, h1, h2 {
+        font-family: var(--font-title);
+    }
+
+    #footer {
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+        margin: 2em;
+        font-size: 1.2em;
+        font-family: var(--font-title);
+    }
+
+    #footer a {
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 0.5em 0.8em 0.4em;
+        border-radius: 0.5em;
+    }
+
+    .page {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: left;
+    }
+
+    @media (max-width: 800px) {
+        body {
+            font-size: 1em;
+        }
+
+        #title {
+            font-size: 1.5em;
+        }
+
+        #footer {
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+        }
+
+        #mottie {
+            height: 100px;
+            bottom: -20px;
+        }
+    }
+</style>
+
+<body>
+
+<img id="background" src="mynameis.jpg">
+<img id="mottie" src="mottie_coucou.png" alt="Mottie Coucou">
+
+<div id="title">
+    <h1>Le LAP</h1>
+    <p>
+        La salle d'arcade associative parisienne.
+    </p>
+</div>
+
+<div class="page">
+    <h2>Les jeux</h2>
+    <ul>
+        <li>Dance Dance Revolution</li>
+        <li>jubeat</li>
+        <li>DANCERUSH STARDOM</li>
+        <li>SOUND VOLTEX</li>
+        <li>WACCA</li>
+        <li>
+            Setup PC
+            <small>
+                avec manettes beatmania IIDX, pop'n music, et NOSTALGIA
+            </small>
+        </li>
+    </ul>
+
+    <h2>Tarification</h2>
+    <p>
+        1 heure : 3€.
+        <br>Temps illimité à partir de 4 heures (12€).
+        <br>Divisible à la demi-heure.
+        <br>Paiement à la sortie.
+    </p>
+
+    <h2>Horaires</h2>
+    <p>
+        La salle est ouvert <strong>ponctuellement</strong> sur annonce uniquement, voir notre <a href="https://lelap.in/discord">Discord</a> et
+        <a href="https://x.com/LAP_Arcade">X</a>.
+    </p>
+</div>
+
+<footer id="footer">
+    <a href="https://lelap.in/discord">Discord</a>
+    <a href="https://x.com/LAP_Arcade">X</a>
+    <a href="https://zenius-i-vanisher.com/v5.2/arcade.php?id=8972">Zenius</a>
+</footer>
+
+</body>
+
+<script>
+    document.getElementById('mottie').addEventListener('click', () => {
+        window.location.href = 'https://www.youtube.com/watch?v=kVAD7qTcO-w';
+    });
+</script>
