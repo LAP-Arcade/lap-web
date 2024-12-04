@@ -1,0 +1,44 @@
+@font-face {
+    font-family: DRS;
+    src: url(../fonts/rec_01.woff2);
+  }
+
+  @font-face {
+    font-family: DRS2;
+    src: url(../fonts/rec_02.woff2);
+  }
+
+body
+{
+
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color:white;
+
+}
+
+
+
+h1, h2
+{
+  font-family: DRS;
+}
+
+.drs2
+{
+  font-family: DRS2;
+}
+
+.black
+{
+  text-shadow: 2px 2px 2px black;
+}
+
+.black2
+{
+  text-shadow: 3px 3px 10px black;
+}
