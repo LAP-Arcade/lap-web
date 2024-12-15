@@ -1,0 +1,26 @@
+- name: beatmania IIDX
+  ver: 31 EPOLIS
+  image: iidx_lap2.jpg
+
+- name: Dance Dance Revolution
+  ver: A3
+  image: ddr_lap2.jpg
+
+- name: DANCERUSH STARDOM
+  image: drs_lap2.jpg
+
+- name: GROOVE COASTER
+  ver: 4MAX DIAMOND GALAXY
+  image: gc_lap2.jpg
+
+- name: jubeat
+  ver: Ave.
+  image: jubeat_lap2.jpg
+
+- name: SOUND VOLTEX
+  ver: EXCEED GEAR
+  image: sdvx_lap2.jpg
+
+- name: WACCA
+  ver: REVERSE
+  image: wacca_lap2.jpg
