@@ -1,0 +1,65 @@
+number: 1
+title: First Edition
+
+expert:
+  - game: DanceDanceRevolution
+    title: Snow prism
+    diff: Challenge 16
+    cover: content/1/Snow_prism.png
+
+  - game: Groove Coaster
+    title: ただ君に晴れ
+    diff: Hard 10
+    cover: content/1/Tada_kimi_ni_hare.png
+
+  - game: jubeat
+    title: エジソン
+    diff: Extreme 9.0
+    cover: content/1/edison.jpg
+
+  - game: IIDX
+    title: Too Late Snow
+    diff: Another 9
+    cover: content/1/Too_Late_Snow.png
+
+  - game: SOUND VOLTEX
+    title: Crazy Jackpot
+    diff: MAXIMUM 18
+    cover: content/1/Crazy_Jackpot.png
+
+  - game: WACCA
+    title: Crazy Jackpot
+    diff: MAXIMUM 18
+    cover: content/1/XTREME.jpg
+
+
+beginner:
+  - game: DanceDanceRevolution
+    title: Mixed nuts
+    diff: Difficult 8
+    cover: content/1/Mixed_nuts.png
+
+  - game: Groove Coaster
+    title: Let you DIVE!
+    diff: Normal 5
+    cover: content/1/Let_you_DIVE!.png
+
+  - game: jubeat
+    title: 朝色の紙飛行機
+    diff: Basic 4
+    cover: content/1/Asairo_no_kamihikouki.png
+
+  - game: IIDX
+    title: 花吹雪 ～ IIDX LIMITED ～
+    diff: Normal 4
+    cover: content/1/Hanafubuki_~_IIDX_LIMITED_~.png
+
+  - game: SOUND VOLTEX
+    title: ヒトガタ
+    diff: Advanced 10
+    cover: content/1/Hitogata.png
+
+  - game: WACCA
+    title: KING
+    diff: Hard 8
+    cover: content/1/KING.png
