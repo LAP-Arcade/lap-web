@@ -1,0 +1,65 @@
+number: 2
+title: Round Two
+
+expert:
+  - game: DanceDanceRevolution
+    title: BLACK JACKAL
+    diff: Expert 15
+    cover: content/2/BLACK_JACKAL.png
+
+  - game: Groove Coaster
+    title: ウミユリ海底譚
+    diff: Hard 9
+    cover: content/2/Umiyuri_kaiteitan.png
+
+  - game: IIDX
+    title: AGEHA
+    diff: Another 9
+    cover: content/2/Ryu_2nd.jpg
+
+  - game: jubeat
+    title: 激闘保安官！DEMPA撲滅大作戦
+    diff: Extreme 9.5
+    cover: content/2/Gekitou_hoankan!_DEMPA_bokumetsu_daisakusen.png
+
+  - game: SOUND VOLTEX
+    title: ネトゲ廃人シュプレヒコール(EXIT TUNES)
+    diff: EXCEED 17
+    cover: content/2/Netoge_haijin_sprechchor.png
+
+  - game: WACCA
+    title: Gestalt
+    diff: Expert 12+
+    cover: content/2/a3919507699_16.jpg
+
+
+beginner:
+  - game: DanceDanceRevolution
+    title: DANCERUSH STARDOM ANTHEM
+    diff: Difficult 8
+    cover: content/2/DANCERUSH_STARDOM_ANTHEM.png
+
+  - game: Groove Coaster
+    title: Bonetrousle
+    diff: Normal 5
+    cover: content/2/Bonetrousle.jpg
+
+  - game: IIDX
+    title: Flash Back 90's
+    diff: Normal 4
+    cover: content/2/Flash_Back_90's_BASIC.png
+
+  - game: jubeat
+    title: Icicles
+    diff: Advanced 6
+    cover: content/2/Icicles_jubeat.png
+
+  - game: SOUND VOLTEX
+    title: Candy Star
+    diff: Advanced 10
+    cover: content/2/Candy_Star.png
+
+  - game: WACCA
+    title: Bad Apple!! feat. nomico
+    diff: Expert 9
+    cover: content/2/Bad_Apple!!_feat._nomico_PC.png
