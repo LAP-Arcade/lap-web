@@ -10,14 +10,14 @@
     <div id="content" class="container text-center">
         <div class="mb-5">
             <img src="title.png" alt="">
-            <h1 class="display-5 mb-0 drs2 black">#{{ data.contests.contest1.number}} {{ data.contests.contest1.title}}</h1>
+            <h1 class="display-5 mb-0 drs2 black">#{{ data.contests.contest2.number}} {{ data.contests.contest2.title}}</h1>
             <h3 class="drs2"><a href="https://lelap.in/contest/scores">Accéder aux scores</a></h3>
         </div>
 
         <div class="container mb-5">
             <h1 class="text-danger mb-3 black2">EXPERT</h1>
             <div class="row">
-                {% for song in data.contests.contest1.expert %}
+                {% for song in data.contests.contest2.expert %}
                 <div class="col-lg-2 col-sm-4 col mb-3">
                     <h6 class="drs2">{{ song.game }}</h6>
                     <img src="{{ song.cover }}" alt="" class="img-fluid mb-1">
@@ -31,7 +31,7 @@
         <div class="container mb-5">
             <h1 class="text-primary mb-3 black2">DEBUTANT</h1>
             <div class="row">
-                {% for song in data.contests.contest1.beginner %}
+                {% for song in data.contests.contest2.beginner %}
                 <div class="col-lg-2 col-sm-4 col mb-3">
                     <h6 class="drs2">{{ song.game }}</h6>
                     <img src="{{ song.cover }}" alt="" class="img-fluid mb-1">
