@@ -1,7 +1,7 @@
 # lap-web
 
 The public website for Le LAP, a french nonprofit organization of arcade music
-games enthusiast who decided to rent a location together to put their own
+games enthusiasts who decided to rent a location together to put their own
 arcade cabinets in.
 
 The location is open to the public about half of the week, times are announced
